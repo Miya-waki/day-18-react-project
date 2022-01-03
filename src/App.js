@@ -1,15 +1,21 @@
  import "./App.css";
 
 /**
- * class => is a reserved keyword in javascript
- * class => use classname instead of class
- * @returns 
+ *style => ""
+style = "background-color:red"
+
+ *rule
+ style ={{}} 
+style ={{backgroundColor:"red"}}
+
+first two letter css properties are now converted into camelCase property
+the value of the property must be in double quote
  */
 
 export default function App() {
   return (
     <div>
-      <div className="beautify">hello world</div>
+      <div style ={{color:"white", backgroundColor:"royalblue"}}>hello world</div>
     </div>
   );
 }

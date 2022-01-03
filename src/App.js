@@ -1,3 +1,3 @@
 export default function app(){
-  return <div>Hello world</div>
+  return <div class ="bg-primary">Hello world</div>
 }
